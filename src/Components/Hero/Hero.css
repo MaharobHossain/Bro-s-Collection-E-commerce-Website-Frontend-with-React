@@ -22,8 +22,8 @@
 
 .hero-left p{
     color: #171717;
-    font-size: 100px;
-    font-weight: 700;
+    font-size: 75px;
+    font-weight: 650;
 }
 
 .hand-icon{
@@ -66,8 +66,8 @@
     
 }
 
-/* .family-icon img{
+.family-icon img{
     width: 670px;
     height: 450px;
     
-} */
+}
