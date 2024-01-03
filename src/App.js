@@ -7,6 +7,7 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
+import Men from './Pages/Men';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
     <Routes>
     
     <Route exact path='/' element={<Shop/>} />
-    <Route exact path="/mens" element={<ShopCategory category="men" />} />
+    <Route exact path="/mens" element={<Men category="men" />} />
     <Route exact path="/womens" element={<ShopCategory category="women" />} />
     <Route exact path="/kids" element={<ShopCategory  category="kid"/>} />
     <Route exact path='/product' element={<Product/>}>
