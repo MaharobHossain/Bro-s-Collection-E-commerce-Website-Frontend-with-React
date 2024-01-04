@@ -1,7 +1,8 @@
 import React from 'react'
 import './Popular.css'
-import data_product from '../Assetss/data';
-import Item from './../Item/Item';
+import data_product from '../Assetss/data'
+import Item from '../Item/Item'
+
 
 
 
