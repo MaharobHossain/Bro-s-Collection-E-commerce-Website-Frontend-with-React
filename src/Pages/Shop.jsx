@@ -5,9 +5,12 @@ import Offers from '../Components/Offer/Offers';
 
 const Shop = () => {
   return (
-    <div>
+    <div className='w-80%'>
 
       <Hero/>
+      <br />
+      <br />
+      <br />
       <Popular/>
       <br />
       <br />
@@ -16,7 +19,8 @@ const Shop = () => {
       <br />
       <br />
       <Offers/>
-      
+       
+
     </div>
   )
 }
