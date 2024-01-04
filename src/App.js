@@ -8,6 +8,7 @@ import Product from './Pages/Product';
 import LoginSignup from './Pages/LoginSignup';
 import Cart from './Pages/Cart';
 import Men from './Pages/Men';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
 
 
     </Routes>
+    <Footer/>
     </BrowserRouter>
+    
     </div>
   );
 }
