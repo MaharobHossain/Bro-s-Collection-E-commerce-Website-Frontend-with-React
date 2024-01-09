@@ -11,13 +11,9 @@ const Shop = () => {
     <div className='w-80%'>
 
       <Hero/>
-      <br />
+      
       <Popular/>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+<br /> <br /> <br /> <br />
       <Offers/>
       <br />
       <NewCollections/>
