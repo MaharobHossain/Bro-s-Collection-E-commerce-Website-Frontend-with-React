@@ -1,11 +1,12 @@
 .shopcategory-banner{
     display: block;
-    margin: 30px auto;
-    width: 82%;
+    /* margin: 30px auto; */
+    /* width: 90%; */
+    clear: both;
 }
 .shopcategory-indexShort{
     display: flex;
-    margin: 0px 170px;
+    margin: 5px 170px;
     justify-content: space-between;
     align-items: center;
 }
@@ -20,10 +21,11 @@
 }
 
 .shopcategory-products{
-    margin: 20px 170px;
+    margin: 10px ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 80px;
+    clear: both;
 }
 
 .shopcategory-loadmore{

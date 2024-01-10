@@ -7,7 +7,7 @@ import './CSS/LoginSignup.css'
 
 const LoginSignup = () => {
   return (
-    <div className='loginsingup'>
+    <div className='loginsingup clearfix'>
       <div className="login-container">
         <h1>Sing Up</h1>
         <div className="login-fields">
