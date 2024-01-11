@@ -35,8 +35,7 @@ const ProductDetails = (props) => {
         <div className="display-price-new">${product.new_price}</div>
       </div>
       <div className="description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis explicabo odio dolores expedita eius, quaerat saepe nesciunt distinctio ipsa voluptate?
-      </div>
+      We offer high-quality products at competitive prices. Our user-friendly interface makes it easy for you to navigate through our website. We also offer fast and efficient delivery services, so you can receive your products in no time.</div>
       <div className="right-size">
         <h1>Select Size</h1>
         <div className="right-sizes">
