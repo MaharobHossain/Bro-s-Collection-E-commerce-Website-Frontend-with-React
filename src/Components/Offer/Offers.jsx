@@ -5,8 +5,8 @@ import exclucive_image from '../Assest/Images/shopi.png'
 const Offers = () => {
   return (
 
-    <div className="clearfix">
-<div className='offers'>
+    
+<div className='offers clearfix'>
 
 <div className="offers-left">
 <h1>Exclusive</h1>
@@ -19,7 +19,7 @@ const Offers = () => {
   <img src={exclucive_image} alt="" />
 </div>
 </div>
-    </div>
+    
     
   )
 }

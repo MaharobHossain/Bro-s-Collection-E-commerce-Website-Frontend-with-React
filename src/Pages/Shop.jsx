@@ -18,11 +18,7 @@ const Shop = () => {
 
       <Hero/>
       <Popular/>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+     
       <Offers/>
       <NewCollections/>
       <NewsLetter/>
