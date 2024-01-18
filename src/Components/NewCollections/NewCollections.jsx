@@ -2,7 +2,6 @@ import React from 'react'
 import './NewCollection.css'
 import new_collections from '../Assetss/new_collections'
 
-
 // import popular_item1 from '../Assest/Images/hree.png'
 // import popular_item2 from '../Assest/Images/hrii.png'
 // import popular_item3 from '../Assest/Images/huuu.png'

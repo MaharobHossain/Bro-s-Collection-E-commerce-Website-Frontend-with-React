@@ -1,6 +1,10 @@
 .item{
     width: 280px;
+}
 
+.rrrre{
+    width: 262px;
+    display: flex;
 }
 
 .item p{

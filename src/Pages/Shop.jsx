@@ -5,7 +5,7 @@ import Offers from '../Components/Offer/Offers';
 import NewCollections from '../Components/NewCollections/NewCollections';
 import NewsLetter from '../Components/NewsLetter/NewsLetter';
 import './CSS/Shop.css'
-// import Shop from './Shop';
+
 
 
 
@@ -13,12 +13,11 @@ import './CSS/Shop.css'
 const Shop = () => {
   return (
 
-    <div className='clearfix'>
-    <div  className='w-80%'  >
+    <div className='maharob clearfix'>
+    <div  className=''  >
 
       <Hero/>
       <Popular/>
-     
       <Offers/>
       <NewCollections/>
       <NewsLetter/>

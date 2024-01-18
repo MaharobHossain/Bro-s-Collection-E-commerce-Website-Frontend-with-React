@@ -3,3 +3,7 @@ content: "";
 display: block;
 clear: both;
 }
+.maharob{
+    flex-flow: row wrap;
+    justify-content: space-around;
+}

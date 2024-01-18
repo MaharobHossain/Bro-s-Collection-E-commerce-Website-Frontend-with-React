@@ -8,8 +8,8 @@ import Item from '../Item/Item'
 
 const Popular = () => {
   return (
-   <div className=''>
-     <div className='popular clearfix'>
+   <div className='clearfix'>
+     <div className='popular '>
       <h1>POPULAR IN WOMEN</h1>
       <hr />
       <div className="popular-item">
