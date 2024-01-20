@@ -3,6 +3,8 @@ import './ProductDetails.css'
 import star_icon from '../Assetss/star_icon.png';
 import star_dull_icon from '../Assetss/star_dull_icon.png';
 import { ShopContext } from '../../Context/ShopContext';
+import Toaster from '../Toaster';
+import Item from '../Item/Item';
 
 const ProductDetails = (props) => {
     const {product} = props;
@@ -50,7 +52,12 @@ const ProductDetails = (props) => {
             <div>XXL</div>
         </div>
       </div>
-      <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
+      <button onClick={()=>{addToCart(product.id);
+      if (Number(Item)>0){
+        Toaster("Product Add to cart", 'success')
+      }
+      
+      }}>ADD TO CART</button>
       <p className='right-category'> <span>Category : </span>Men, Women , T-Shirt , Crop Top.</p>
       <p className='right-category'> <span>Tags : </span>Modern , Latest, Top-Seller.</p>
       </div>
