@@ -6,7 +6,7 @@
 
 .offers{
     width: 1063px;
-    /* height: 70vh; */
+    height: 53vh;
   
     padding: 0px 140px;
     background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
@@ -26,7 +26,7 @@
 
 .offers-left h1{
     color: #171717;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 600;
     position: relative;
     right: 20px;

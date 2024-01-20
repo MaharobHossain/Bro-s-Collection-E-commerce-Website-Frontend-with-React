@@ -22,8 +22,19 @@
     font-size: 17px;
     font-weight: 600;
 }
+.crt-format p{
+    position: relative;
+    left: 14px;
+}
+.crt-format button{
+    position: relative;
+    left: 20px;
+}
 .carticon-product{
+    width: 55px;
     height: 62px;
+    position: relative;
+    left: 13px;
 }
 
 .cart-remove-icon{
@@ -58,13 +69,15 @@
     width: 262px;
     height: 45px;
     outline: none;
-    border: none;
-    background: #ff5a5a;
+    border: 1px solid black;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-
+    background-color: red;
+}
+.cart-total button:active{
+    background-color: yellow;
 }
 
 .cart-pomo-code{
@@ -93,8 +106,14 @@
 .cart-pomo-box button{
     width: 168px;
     height: 57px;
-    font-size: 16px;
-    background: black;
-    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    outline: none;
+    border: 1px solid black;
+    color: black;
     cursor: pointer;
+    background-color: red;
+}
+.cart-pomo-box button:active{
+    background-color: yellow;
 }

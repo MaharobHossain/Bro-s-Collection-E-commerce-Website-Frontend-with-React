@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="nav-login-cart">
 
         <Link to='/cart'><img src={cart} alt="" /> </Link>
-        <div className="nav-cart-count">{getTotalCartItems}</div>
+        <div className="nav-cart-count">{getTotalCartItems()}</div>
         <Link to='/login'><button>Login</button></Link>
 
       </div>
