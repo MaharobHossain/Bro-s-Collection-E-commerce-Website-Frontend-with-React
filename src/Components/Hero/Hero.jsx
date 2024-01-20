@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css'
 import hand_icon from '../Assest/Images/hand icon.png'
 import arrow_icon from '../Assest/Images/arrow icon.png'
+// import arrow_icon from '../Assetss/arrow.png'
 import family_icon from '../Assest/Images/family.png'
 
 const Hero = () => {

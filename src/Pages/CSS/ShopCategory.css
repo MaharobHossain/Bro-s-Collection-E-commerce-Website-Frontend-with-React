@@ -36,10 +36,16 @@
     align-items: center;
     margin: 150px auto;
     width: 233px;
-    height: 69px;
+    height: 50px;
+    outline: none;
+    border: 1px solid black;
     border-radius: 75px;
-    background: #3cda9d;
     color: black;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: yellow;
+}
+.shopcategory-loadmore:active{
+    background: rgb(5, 255, 101);
 }

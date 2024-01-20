@@ -1,10 +1,11 @@
-.clearfix {
+.clearfix{
     content: "";
+    display: block;
     clear: both;
-    display: table;
-  }
+}
 .hero{
-    height: 100vh;
+    width: 1343px;
+    height: 68vh;
     background: linear-gradient(180deg, #6dcc98, #54a8cf22 60%);
     display: flex;
 }
@@ -14,32 +15,33 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    padding-left: 180px;
+    gap: 10px;
+    padding-left: 150px;
     line-height: 1.1;
 }
 
 .hero-left h2{
     color: #090909;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
 }
 
 .hero-left p{
     color: #171717;
     font-size: 75px;
-    font-weight: 650;
+    font-weight: 500;
 }
 
 .hand-icon{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 5px;
 
 }
 
 .hand-icon img{
     width: 105px;
+    
 }
 
 .hero-latest-button{
@@ -47,20 +49,26 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 310px;
-    height: 70px;
-    border-radius: 75px;
-    margin-top: 30px;
-    background: #ff4141;
+    width: 375px;
+    height: 40px;
+    margin-top: 20px;
     color: black;
     font-size: 22px;
-    font-weight: 500;
-
+    font-weight: 400;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 77px;
+    cursor: pointer;
+    background-color: yellow;
+}
+.hero-latest-button:active{
+    background: rgb(5, 255, 101);
+    color: black;
 }
 
 .hero-latest-button img{
     width: 60px;
-    height: 48px;
+    height: 35px;
 }
 
 .family-icon{
@@ -68,11 +76,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    position: relative;
+    right: 50px;
 }
 
-.family-icon img{
-    width: 670px;
-    height: 450px;
+/* .family-icon img{
+    width: 570px;
+    height: 350px;
     
-}
+} */

@@ -1,10 +1,10 @@
 .newsletter{
+    width: 1063px;
     height: 40vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: auto;
     padding: 0px 140px;
     margin-bottom: 150px;
     background: linear-gradient(180deg, #5d9c79, #7fbfdd22 60%);
@@ -15,13 +15,18 @@
 .newsletter h1{
     color: black;
     font-size: 55px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .newsletter p{
-    color: #454545;
-    font-size: 20px;
+    color: #363636;
+    font-size: 21px;
 
+}
+.newsletter p span{
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .newsletter div{
@@ -30,9 +35,9 @@
     justify-content: space-between;
     background: white;
     width: 730px;
-    height: 70px;
+    height: 40px;
     border-radius: 80px;
-    border: 1px solid #e3e3e3;
+    border: 1px solid #636262;
 
 }
 
@@ -41,7 +46,7 @@
     margin-left: 30px;
     border: none;
     outline: none;
-    color: #616161;
+    color: #525151;
     font-family: Poppins;
     font-size: 16px;
 
@@ -49,12 +54,17 @@
 
 .newsletter div button{
     width: 210px;
-    height: 70px;
-    border-radius: 80px;
-    background: #5ae498;
-    color: black;
-    font-size: 16px;
+    height: 40px;
+    color: rgb(77, 70, 70);
+    outline: none;
+    border: 1px solid black;
+    border-radius: 75px;
+    background-color: yellow;
+    font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     
-
+}
+.newsletter div button:active{
+    background: rgb(5, 255, 101);
 }

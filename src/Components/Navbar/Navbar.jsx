@@ -14,9 +14,12 @@ const Navbar = () => {
   return (
     <div className='navbar'>
 
+      {/* <Link to='/'>    
+        
+      </Link> */}
       <div className="nav-logo">
-          <img src={logo} alt="" />
-          <p>BRO'S COLLECTION</p>
+           <img src={logo} alt="" />
+          <p >BRO'S COLLECTION</p>
       </div>
 
       <ul className="nav-menu">
