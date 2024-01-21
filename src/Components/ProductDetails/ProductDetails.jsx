@@ -5,10 +5,16 @@ import star_dull_icon from '../Assetss/star_dull_icon.png';
 import { ShopContext } from '../../Context/ShopContext';
 import Toaster from '../Toaster';
 import Item from '../Item/Item';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ProductDetails = (props) => {
     const {product} = props;
     const {addToCart} = useContext(ShopContext);
+    // const diffToast = ( ) =>  {
+    //   toast.success("Product Add to cart")
+    // }
+
   
 
   return (
@@ -53,14 +59,18 @@ const ProductDetails = (props) => {
         </div>
       </div>
       <button onClick={()=>{addToCart(product.id);
-      if (Number(Item)>0){
-        Toaster("Product Add to cart", 'success')
+      if (Number(Item.stock)>0){
+        Toaster('Product is out of stock', 'warn')
       }
+      else{
+        Toaster("Product Add to cart", 'success')
+    }
       
       }}>ADD TO CART</button>
       <p className='right-category'> <span>Category : </span>Men, Women , T-Shirt , Crop Top.</p>
       <p className='right-category'> <span>Tags : </span>Modern , Latest, Top-Seller.</p>
       </div>
+      <ToastContainer/>
     </div>
   )
 }
