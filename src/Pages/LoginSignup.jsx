@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/LoginSignup.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -18,7 +19,7 @@ const LoginSignup = () => {
         <button>Continue</button>
 
         <p className="login-login">
-          Already havean account? <span>Login here</span>
+          Already havean account? <Link to='/login' ><span>Login here</span></Link>
         </p>
 
         <div className="login-agree">

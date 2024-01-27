@@ -1,0 +1,75 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.loginsingups{
+    width: 100%;
+    height: 72vh;
+    /* background: #bc96be; */
+    /* background: linear-gradient(180deg, #4bf095, #fd151522 60%); */
+    background: linear-gradient(180deg, #972097, #0bd7f122 60%);
+    padding: 50px;
+    
+}
+
+.login-containers{
+    width: 580px;
+    height: 370px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+
+}
+
+.login-containers h1{
+    margin: 20px 0px;
+
+}
+
+.login-fieldss{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+
+.login-fieldss input{
+    height: 50px;
+    width: 100%;
+    padding-left: 15px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+
+}
+.login-containers button{
+    width: 600px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 77px;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: yellow;
+
+}
+
+.login-containers button:active{
+    background: rgb(5, 255, 101);
+}
+
+.login-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}

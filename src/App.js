@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assetss/banner_mens.png'
 import women_banner from './Components/Assetss/banner_women.png'
 import kid_banner from './Components/Assetss/banner_kids.png'
+import Login from './Pages/Login';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
     <Route exact path=':ProductId' element={<Product/>} />
     </Route>
     <Route exact path='/cart'  element={<Cart/>} />
-    <Route exact path='/login'  element={<LoginSignup/>} />
+    <Route exact path='/login'  element={<Login/>} />
+    <Route exact path='/singup'  element={<LoginSignup/>} />
 
 
     </Routes>
