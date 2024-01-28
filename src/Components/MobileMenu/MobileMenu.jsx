@@ -77,7 +77,7 @@ function MobileMenu() {
                   <Search />
                 </div>
                 <ul className='flex w-full flex-col'>
-                {/* <li className='py-2 text-lg text-black transition-colors hover:text-green-600 '>
+                <li className='py-2 text-lg text-black transition-colors hover:text-green-600 '>
                       <Link to='/' className={window.location.pathname === '/' ? 'mobileMenudActive' : ''}>
                         Home
                       </Link>
@@ -129,7 +129,7 @@ function MobileMenu() {
                             <Link to='/Login'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
                              Log-In
                             </Link>
-                           </li> */}
+                           </li>
 
 
 
