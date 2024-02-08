@@ -77,60 +77,7 @@ function MobileMenu() {
                   <Search />
                 </div>
                 <ul className='flex w-full flex-col'>
-                {/* <li className='py-2 text-lg text-black transition-colors hover:text-green-600 '>
-                      <Link to='/' className={window.location.pathname === '/' ? 'mobileMenudActive' : ''}>
-                        Home
-                      </Link>
-                   </li>
-
-                   <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                       <Link to='/blogs' className={window.location.pathname === '/' ? 'mobileMenudActive' : ''}>
-                       Blogs
-                      </Link>
-                       </li>
-                       
-                       <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                       <Link to='/cart' className={window.location.pathname === '/' ? 'mobileMenudActive' : ''}>
-                       Cart 
-                      </Link>
-                       </li>
-  
-                       <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                            <Link to='/user/dashbord'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
-                            Dashboard
-                            </Link>
-                           </li>
-
-                           <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                            <Link to='/user/profile'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
-                            Profile
-                            </Link>
-                           </li>
-
-                           <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                            <Link to='/user/addresses'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
-                            AddressBook
-                            </Link>
-                           </li>
-
-                           <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                            <Link to='/user/order-list'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
-                            Orders
-                            </Link>
-                           </li>
-
-                           <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                            <Link to='/sing-up'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
-                             Sing-Up
-                            </Link>
-                           </li>
-
-                           <li className='text-lg text-black transition-colors hover:text-green-600 '>
-                            <Link to='/Login'  className={window.location.pathname === '/' ? 'mobileMenudActive' : ''} >
-                             Log-In
-                            </Link>
-                           </li> */}
-
+               ggit
 
 
                 </ul>
